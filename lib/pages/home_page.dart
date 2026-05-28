@@ -8,7 +8,6 @@ import 'settings_page.dart';
 import 'report_page.dart';
 import 'wordle_page.dart';
 import 'word_chain_page.dart';
-import 'project_status_page.dart';
 import 'login_page.dart';
 
 class HomePage extends StatelessWidget {
@@ -168,19 +167,6 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (_) => const WordChainPage()),
-                );
-              },
-            ),
-
-            menuButton(
-              icon: Icons.assignment,
-              title: 'Proje Durumu / Öğrenci Beyanı',
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const ProjectStatusPage(),
-                  ),
                 );
               },
             ),
