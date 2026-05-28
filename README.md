@@ -1,16 +1,42 @@
-# kelime_tekrar_oyunu
+# Kelime Tekrar Oyunu
 
-6 sefer tekrar prensibi ile kelime ezberleme oyunu
+## Proje Hakkında
 
-## Getting Started
+Bu proje, kullanıcıların İngilizce kelimeleri 6 tekrar prensibi ile daha kalıcı şekilde ezberlemesini sağlayan Flutter tabanlı bir mobil uygulamadır.
 
-This project is a starting point for a Flutter application.
+## Kullanılan Teknolojiler
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter
+* Dart
+* SQLite
+* Git & GitHub
+* SonarQube
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Uygulama Özellikleri
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Kelime ekleme
+* Resim/link ekleme
+* Günlük tekrar sistemi
+* 6 tekrar prensibi
+* İstatistik ekranı
+* Doğru/Yanlış cevap sistemi
+
+## Kurulum
+
+Projeyi çalıştırmak için:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Proje Yapısı
+
+* lib/pages → Sayfalar
+* lib/models → Veri modelleri
+* lib/services → Veritabanı işlemleri
+* lib/widgets → Özel bileşenler
+
+## GitHub Repo
+
+GitHub üzerinden proje commit geçmişi ve kaynak kodları görüntülenebilir.
